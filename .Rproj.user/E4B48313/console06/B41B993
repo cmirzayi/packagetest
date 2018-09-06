@@ -1,0 +1,343 @@
+[0m[0KMicrosoft Windows [Version 10.0.17134.228][0K[?25l
+(c) 2018 Microsoft Corporation. All rights reserved.[0K
+[0K
+C:\Users\cmirz\Documents\packagetest>[0K[2A[?25h[?25l
+
+[38G[?25h[?25lC:\Users\cmirz\Documents\packagetest>g[0K[?25hi[0Kt[0K[42G[?25lC:\Users\cmirz\Documents\packagetest>git i[0K[?25hn[0Ki[0Kt[0K[?25l
+[0K[?25h]0;  - git  init]0; Initialized empty Git repository in C:/Users/cmirz/D[0Ko[?25l
+cuments/packagetest/.git/[0K
+[0K
+C:\Users\cmirz\Documents\packagetest>[0K[?25hg[0Ki[0Kt[0K[42G[?25lC:\Users\cmirz\Documents\packagetest>git e[0K[?25hx[0Ki[0Kt[0K]0;  - git  exit[?25l
+[0K[?25hgit: 'exit' is not a git command. See 'git --help'.[0K[?25l
+[0K
+The most similar command is[0K
+        init[0K
+[0K[?25h]0; [?25l
+C:\Users\cmirz\Documents\packagetest>[0K[?25hg[0Ki[0Kt[0K[42G[?25lC:\Users\cmirz\Documents\packagetest>git s[0K[?25ht[0Ko[0Kp[0K]0;  - git  stop[?25l
+[0K[?25hgit: 'stop' is not a git command. See 'git --help'.[0K[?25l
+[0K
+The most similar command is[0K
+        show[0K
+[0K[?25h]0; [?25l
+C:\Users\cmirz\Documents\packagetest>[0K[?25hg[0Ki[0Kt[0K[42G[?25lC:\Users\cmirz\Documents\packagetest>git h[0K[?25ha[0Kl[0Kt[0K[?25l
+[0K[?25h]0;  - git  haltgit: 'halt' is not a git command. See 'git --help'.[0K[?25l
+[0K
+The most similar command is[0K
+        help[0K
+[0K[?25h]0; [?25l
+C:\Users\cmirz\Documents\packagetest>[0K[?25hg[0Ki[0Kt[0K[42G[?25lC:\Users\cmirz\Documents\packagetest>git h[0K[?25he[0Kl[0Kp[0K[?25l
+[0K[?25h]0;  - git  helpusage: git [--version] [--help] [-C <path>] [-c <nam[0Ke[?25l
+>=<value>][0K
+           [--exec-path[=<path>]] [--html-path] [--m[0Ka
+n-path] [--info-path][0K
+           [-p | --paginate | -P | --no-pager] [--no[0K-
+replace-objects] [--bare][0K
+           [--git-dir=<path>] [--work-tree=<path>] [[0K-
+-namespace=<name>][0K
+           <command> [<args>][0K
+[0K
+These are common Git commands used in various situat[0Ki
+ons:[0K
+[0K
+start a working area (see also: git help tutorial)[0K
+   clone      Clone a repository into a new director[0Ky
+[0K
+   init       Create an empty Git repository or rein[0Ki
+tialize an existing one[0K
+[0K
+work on the current change (see also: git help every[0Kd
+ay)[0K
+   add        Add file contents to the index[0K
+   mv         Move or rename a file, a directory, or[0K
+a symlink[0K
+   reset      Reset current HEAD to the specified st[0Ka
+te[0K
+   rm         Remove files from the working tree and[0K
+from the index[0K
+[0K
+examine the history and state (see also: git help re[0Kv
+isions)[0K
+   bisect     Use binary search to find the commit t[0Kh
+at introduced a bug[0K
+   grep       Print lines matching a pattern[0K
+   log        Show commit logs[0K
+   show       Show various types of objects[0K
+   status     Show the working tree status[0K
+[0K
+grow, mark and tweak your common history[0K
+   branch     List, create, or delete branches[0K
+   checkout   Switch branches or restore working tre[0Ke
+ files[0K
+   commit     Record changes to the repository[0K
+   diff       Show changes between commits, commit a[0Kn
+d working tree, etc[0K
+   merge      Join two or more development histories[0K
+together[0K
+   rebase     Reapply commits on top of another base[0K
+tip[0K
+   tag        Create, list, delete or verify a tag o[0Kb
+ject signed with GPG[0K
+[0K
+collaborate (see also: git help workflows)[0K
+   fetch      Download objects and refs from another[0K
+repository[0K
+   pull       Fetch from and integrate with another [0Kr
+epository or a local branch[0K
+   push       Update remote refs along with associat[0Ke
+d objects[0K
+[0K
+'git help -a' and 'git help -g' list available subco[0Km
+mands and some[0K
+concept guides. See 'git help <command>' or 'git hel[0Kp
+ <concept>'[0K
+to read about a specific subcommand or concept.[0K
+[0K[?25h]0; [?25l
+C:\Users\cmirz\Documents\packagetest>[0K[?25h^V[0K[?25lC:\Users\cmirz\Documents\packagetest>[0K[?25hgit remote add [0Ko[?25l
+rigin https://github.com/cmirzayi/packagetest.git[0K[?25h]0;  - git  remote add origin https://github.com/cmirzayi/packagetest.git[?25l
+[0K[?25h]0; [?25l
+C:\Users\cmirz\Documents\packagetest>[0K[?25hgit push -u ori[0Kg[?25l
+in master[0K[?25h[?25l
+[0K[?25h]0;  - git  push -u origin master[?25lerror: src refspec master does not match any.[0K[37G[?25h]0; [?25l
+[0;31merror: failed to push some refs to 'https://github.c[0Ko
+m/cmirzayi/packagetest.git'[0m[0K
+[0K
+C:\Users\cmirz\Documents\packagetest>[0K[?25hgit commit -m "[0Ki[?25l
+nitial commit"[0K[?25h[?25l
+[0K[?25h]0;  - git  commit -m "initial commit"[?25l
+*** Please tell me who you are.[0K
+[0K
+Run[0K
+[0K
+  git config --global user.email "you@example.com"[0K
+  git config --global user.name "Your Name"[0K
+[0K
+to set your account's default identity.[0K
+Omit --global to set the identity only in this repos[0Ki
+tory.[0K
+[0K
+fatal: unable to auto-detect email address (got 'cmi[0Kr
+z@DESKTOP-LKOT4A6.(none)')[0K
+[0K[?25h]0; [?25l
+C:\Users\cmirz\Documents\packagetest>[0K[?25hgit commit -m "[0Ki[?25l
+nitial commit"[0K[?25h[?25l[1AC:\Users\cmirz\Documents\packagetest>git push -u ori[0Kg
+in master[0K[?25h[?25l
+[0K[?25h]0;  - git  push -u origin mastererror: src refspec master does not match any.[0K[?25l
+[0;31merror: failed to push some refs to 'https://github.c[0Ko
+m/cmirzayi/packagetest.git'[0m[0K
+[0K[?25h]0; [?25l
+C:\Users\cmirz\Documents\packagetest>[0K[?25hg[0Ki[0Kt[0K[42G[?25lC:\Users\cmirz\Documents\packagetest>git c[0K[?25ho[0Kn[0Kf[0Ki[0Kg[0K]0;  - git  config[?25l
+[0K[?25husage: git config [<options>][0K[?25l
+[0K
+Config file location[0K
+    --global              use global config file[0K
+    --system              use system config file[0K
+    --local               use repository config file[0K
+    -f, --file <file>     use given config file[0K
+    --blob <blob-id>      read config from given blo[0Kb
+ object[0K
+[0K
+Action[0K
+    --get                 get value: name [value-reg[0Ke
+x][0K
+    --get-all             get all values: key [value[0K-
+regex][0K
+    --get-regexp          get values for regexp: nam[0Ke
+-regex [value-regex][0K
+    --get-urlmatch        get value specific for the[0K
+URL: section[.var] URL[0K
+    --replace-all         replace all matching varia[0Kb
+les: name value [value_regex][0K
+    --add                 add a new variable: name v[0Ka
+lue[0K
+    --unset               remove a variable: name [v[0Ka
+lue-regex][0K
+    --unset-all           remove all matches: name [[0Kv
+alue-regex][0K
+    --rename-section      rename section: old-name n[0Ke
+w-name[0K
+    --remove-section      remove a section: name[0K
+    -l, --list            list all[0K
+    -e, --edit            open an editor[0K
+    --get-color           find the color configured:[0K
+slot [default][0K
+    --get-colorbool       find the color setting: sl[0Ko
+t [stdout-is-tty][0K
+[0K
+Type[0K
+    -t, --type <>         value is given this type[0K
+    --bool                value is "true" or "false"[0K
+    --int                 value is decimal number[0K
+    --bool-or-int         value is --bool or --int[0K
+    --path                value is a path (file or d[0Ki
+rectory name)[0K
+    --expiry-date         value is an expiry date[0K
+[0K
+Other[0K
+    -z, --null            terminate values with NUL [0Kb
+yte[0K
+    --name-only           show variable names only[0K
+    --includes            respect include directives[0K
+on lookup[0K
+    --show-origin         show origin of config (fil[0Ke
+, standard input, blob, command line)[0K
+    --default <value>     with --get, use default va[0Kl
+ue when missing entry[0K
+[0K
+[0K[?25h]0; [?25l
+C:\Users\cmirz\Documents\packagetest>[0K[?25hg[0Ki[0Kt[0K[42G[?25lC:\Users\cmirz\Documents\packagetest>git -[0K[?25h-[0Kc[0Ko[0Kn[0Kf[0Ki[0Kg[0K]0;  - git  --config[?25l
+[0K[?25hunknown option: --config[0K[?25l
+usage: git [--version] [--help] [-C <path>] [-c <nam[0Ke
+>=<value>][0K
+           [--exec-path[=<path>]] [--html-path] [--m[0Ka
+n-path] [--info-path][0K
+           [-p | --paginate | -P | --no-pager] [--no[0K-
+replace-objects] [--bare][0K
+           [--git-dir=<path>] [--work-tree=<path>] [[0K-
+-namespace=<name>][0K
+           <command> [<args>][0K
+[0K[?25h]0; [?25l
+C:\Users\cmirz\Documents\packagetest>[0K[?25hg[0Ki[0Kt[0K[42G[?25lC:\Users\cmirz\Documents\packagetest>git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[?25l
+[0K[?25h]0;  - git  commit[?25l
+*** Please tell me who you are.[0K
+[0K
+Run[0K
+[0K
+  git config --global user.email "you@example.com"[0K
+  git config --global user.name "Your Name"[0K
+[0K
+to set your account's default identity.[0K
+Omit --global to set the identity only in this repos[0Ki
+tory.[0K
+[0K
+fatal: unable to auto-detect email address (got 'cmi[0Kr
+z@DESKTOP-LKOT4A6.(none)')[0K
+[0K[?25h]0; [?25l
+C:\Users\cmirz\Documents\packagetest>[0K[?25hg[0Ki[0Kt[0K[42G[?25lC:\Users\cmirz\Documents\packagetest>git c[0K[?25ho[0Kn[0Kf[0K-[0K[?25lC:\Users\cmirz\Documents\packagetest>git conf[0K[?25hi[0Kg[0K[49G[?25lC:\Users\cmirz\Documents\packagetest>git config -[0K[?25h-[0Kg[0Kl[0K[0Ko[?25l
+[0K[?25hb[0Ka[0Kl[0K[5G[?25lbal u[0K[?25hs[0Ke[0Kr[0K.[0Kn[0Ka[0Km[0Ke[0K[15G[?25lbal user.name "[0K[?25hC[0Kh[0Kl[0Ko[0Ke[0K"[0K]0;  - git  config --global user.name "Chloe"[?25l
+[0K[?25h]0; [?25l
+C:\Users\cmirz\Documents\packagetest>[0K[?25hg[0Ki[0Kt[0K[42G[?25lC:\Users\cmirz\Documents\packagetest>git c[0K[?25ho[0Kn[0Kf[0Ki[0Kg[0K[49G[?25lC:\Users\cmirz\Documents\packagetest>git config -[0K[?25h-[0Kg[0Kl[0K[0Ko[?25l
+[0K[?25hb[0Ka[0Kl[0K[5G[?25lbal u[0K[?25hs[0Ke[0Kr[0K.[0Ke[0Km[0Ka[0Ki[0Kl[0K[16G[?25lbal user.email "[0K[?25hc[0Km[0Ki[0Kr[0Kz[0Ka[0Ky[0Ki[0K@[0Kg[0Km[0Ka[0Ki[0Kl[0K.[0Kc[0Ko[0Km[0K"[0K]0;  - git  config --global user.email "cmirzayi@gmail.com"[?25l
+[0K[?25h]0; [?25l
+C:\Users\cmirz\Documents\packagetest>[0K[?25hgit config --gl[0Ko[?25l
+bal user.email "cmirzayi@gmail.com"[0K[?25h[?25lbal user.name "Chloe"[0K[?25h[?25l[1AC:\Users\cmirz\Documents\packagetest>git commit[0K
+[0K[1A[48G[?25h[?25lC:\Users\cmirz\Documents\packagetest>git --config[0K
+[0K[1A[50G[?25h[?25lC:\Users\cmirz\Documents\packagetest>git config[0K
+[0K[1A[48G[?25h[?25lC:\Users\cmirz\Documents\packagetest>git push -u ori[0Kg
+in master[0K[?25h[?25l[1AC:\Users\cmirz\Documents\packagetest>git commit -m "[0Ki
+nitial commit"[0K[?25h[?25l
+[0K[?25h]0;  - git  commit -m "initial commit"On branch master[0K[?25l
+[0K
+Initial commit[0K
+[0K
+Untracked files:[0K
+        [0;31m.RData[0m[0K
+        [0;31m.Rbuildignore[0m[0K
+        [0;31m.Rhistory[0m[0K
+        [0;31m.Rproj.user/[0m[0K
+        [0;31mDESCRIPTION[0m[0K
+        [0;31mNAMESPACE[0m[0K
+        [0;31mR/[0m[0K
+        [0;31mman/[0m[0K
+        [0;31mpackagetest.Rproj[0m[0K
+        [0;31mtests/[0m[0K
+[0K
+nothing added to commit but untracked files present[0K
+[0K[?25h]0; [?25l
+C:\Users\cmirz\Documents\packagetest>[0K[?25hg[0Ki[0Kt[0K[42G[?25lC:\Users\cmirz\Documents\packagetest>git -[0K[?25h-[0Kh[0Ke[0Kl[0Kp[0K]0;  - git  --help[?25l
+[0K[?25husage: git [--version] [--help] [-C <path>] [-c <nam[0Ke[?25l
+>=<value>][0K
+           [--exec-path[=<path>]] [--html-path] [--m[0Ka
+n-path] [--info-path][0K
+           [-p | --paginate | -P | --no-pager] [--no[0K-
+replace-objects] [--bare][0K
+           [--git-dir=<path>] [--work-tree=<path>] [[0K-
+-namespace=<name>][0K
+           <command> [<args>][0K
+[0K
+These are common Git commands used in various situat[0Ki
+ons:[0K
+[0K
+start a working area (see also: git help tutorial)[0K
+   clone      Clone a repository into a new director[0Ky
+[0K
+   init       Create an empty Git repository or rein[0Ki
+tialize an existing one[0K
+[0K
+work on the current change (see also: git help every[0Kd
+ay)[0K
+   add        Add file contents to the index[0K
+   mv         Move or rename a file, a directory, or[0K
+a symlink[0K
+   reset      Reset current HEAD to the specified st[0Ka
+te[0K
+   rm         Remove files from the working tree and[0K
+from the index[0K
+[0K
+examine the history and state (see also: git help re[0Kv
+isions)[0K
+   bisect     Use binary search to find the commit t[0Kh
+at introduced a bug[0K
+   grep       Print lines matching a pattern[0K
+   log        Show commit logs[0K
+   show       Show various types of objects[0K
+   status     Show the working tree status[0K
+[0K
+grow, mark and tweak your common history[0K
+   branch     List, create, or delete branches[0K
+   checkout   Switch branches or restore working tre[0Ke
+ files[0K
+   commit     Record changes to the repository[0K
+   diff       Show changes between commits, commit a[0Kn
+d working tree, etc[0K
+   merge      Join two or more development histories[0K
+together[0K
+   rebase     Reapply commits on top of another base[0K
+tip[0K
+   tag        Create, list, delete or verify a tag o[0Kb
+ject signed with GPG[0K
+[0K
+collaborate (see also: git help workflows)[0K
+   fetch      Download objects and refs from another[0K
+repository[0K
+   pull       Fetch from and integrate with another [0Kr
+epository or a local branch[0K
+   push       Update remote refs along with associat[0Ke
+d objects[0K
+[0K
+'git help -a' and 'git help -g' list available subco[0Km
+mands and some[0K
+concept guides. See 'git help <command>' or 'git hel[0Kp
+ <concept>'[0K
+to read about a specific subcommand or concept.[0K
+[0K[?25h]0; [?25l
+C:\Users\cmirz\Documents\packagetest>[0K[?25hg[0Ke[0Kt[0K[42G[?25lC:\Users\cmirz\Documents\packagetest>get -[0K[?25h-[0Ka[0Kd[0Kd[0K[?25lC:\Users\cmirz\Documents\packagetest>get --ad[0K[?25hd[0K[?25l
+'get' is not recognized as an internal or external c[0Ko
+mmand,[0K
+operable program or batch file.[0K
+[0K
+C:\Users\cmirz\Documents\packagetest>[0K[?25hg[0Ki[0Kt[0K[42G[?25lC:\Users\cmirz\Documents\packagetest>git -[0K[?25ha[0Kd[0Kd[0K]0;  - git  -add[?25l
+[0K[?25hunknown option: -add[0K[?25l
+usage: git [--version] [--help] [-C <path>] [-c <nam[0Ke
+>=<value>][0K
+           [--exec-path[=<path>]] [--html-path] [--m[0Ka
+n-path] [--info-path][0K
+           [-p | --paginate | -P | --no-pager] [--no[0K-
+replace-objects] [--bare][0K
+           [--git-dir=<path>] [--work-tree=<path>] [[0K-
+-namespace=<name>][0K
+           <command> [<args>][0K
+[0K[?25h]0; [?25l
+C:\Users\cmirz\Documents\packagetest>[0K[?25hg[0Ki[0Kt[0K[42G[?25lC:\Users\cmirz\Documents\packagetest>git -[0K[?25h-[0Ka[0Kd[0Kd[0K[48G[?25lC:\Users\cmirz\Documents\packagetest>git --add .[0K[?25h]0;  - git  --add .[?25l
+[0K[?25hunknown option: --add[0K[?25l
+usage: git [--version] [--help] [-C <path>] [-c <nam[0Ke
+>=<value>][0K
+           [--exec-path[=<path>]] [--html-path] [--m[0Ka
+n-path] [--info-path][0K
+           [-p | --paginate | -P | --no-pager] [--no[0K-
+replace-objects] [--bare][0K
+           [--git-dir=<path>] [--work-tree=<path>] [[0K-
+-namespace=<name>][0K
+           <command> [<args>][0K
+[0K[?25h]0; [?25l
+C:\Users\cmirz\Documents\packagetest>[0K[?25hg[0Ki[0Kt[0K[42G[?25lC:\Users\cmirz\Documents\packagetest>git a[0K[?25hd[0Kd[0K[46G[?25lC:\Users\cmirz\Documents\packagetest>git add .[0K[?25h[?25l
+[0K[?25h]0;  - git  add .
